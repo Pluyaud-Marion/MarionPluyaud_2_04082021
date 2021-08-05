@@ -57,13 +57,102 @@ a
 h1
 {
     font-size: medium;
+   
 }
 
-header h2,.i, footer div 
+header h2,.i, footer div, p
 {
-    font-size:small;
+    font-size:x-small;
     font-weight: lighter;
     text-decoration: none;
+    
   
 }
 
+.rubrique_hebergements
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 65%;
+    border-radius: 20px;
+
+}
+.rubrique_hebergements h2
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+
+}
+#afficher_plus
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.liste_hebergements
+{
+    display:flex;
+    border-radius:20px;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%;
+    
+}
+.vignette_hebergement
+
+{
+    
+    width: 27%;
+    height: 45%;
+    border-radius: 20px;
+    background-color: white;
+    border:white solid 3px;
+    margin: auto;
+    box-shadow: 1px 1px 5px gray;
+
+}
+
+.vignette_hebergement h3, .vignette_hebergement p
+{
+    margin-left: 3%;
+    
+}
+
+#image_la_cannebiere, #image_port, #image_mouettes, #image_hotel_mer, #image_panier, #image_amina
+{
+    width: 100%; 
+    border-radius: 20px 20px 0 0;
+    height: 60%;
+    object-fit: cover;
+}
+
+h3
+{
+    font-size:x-small;
+    font-weight: bold;
+}
+
+footer
+{
+    display:flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+
+.a_propos, .nos_hebergements, .assistance
+{
+   
+    align-content: center;
+    line-height: 2em;
+    
+}
+footer h2
+{
+    font-size: small;
+}
