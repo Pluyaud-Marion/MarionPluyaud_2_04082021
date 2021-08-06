@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https : //fonts.googleapis.com/css2? family= Raleway & display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9593c52141.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -31,25 +33,38 @@
                     </ul>
                 </nav>
             </div>
-
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             
         </header>
 
         <nav>
-            <p>
-                <!-- <label for="rechercher">Rechercher</label> -->
-                <input type="search" placeholder="Marseille, France">
-                <input type="submit" value="Rechercher">
+            <p class="barre_recherche">
+                <i id="map" class="fas fa-map-marker-alt"></i> 
+                <input class="zone_texte" type="search" placeholder="Marseille, France">
+                <input class="bouton_rechercher" type="submit" value="Rechercher">
             </p>
-            <span>Filtres</span>
-            <p>
-                <input type="submit" value="Economique">
-                <input type="submit" value="Familial">
-                <input type="submit" value="Romantique">
-                <input type="submit" value="Animaux autorisés">
-            </p>
+            <section class="filtres">
+                <span>Filtres</span>
+                <section class="boutons">
+                        <div class="petit_filtre">
+                            <i id="money" class="fas fa-money-bill-wave"></i>
+                            <input class="economique" type="submit" value="Economique">
+                        </div>
+                        <div class="petit_filtre">
+                            <i id="family" class="fas fa-child"></i>
+                            <input class="familial" type="submit" value="Familial">
+                        </div>
+                        <div class="petit_filtre">
+                            <i id="love" class="fas fa-heart"></i>
+                            <input class="romantique" type="submit" value="Romantique">
+                        </div>
+                        <div class="petit_filtre_animaux">
+                            <i id="dog" class="fas fa-dog"></i>
+                            <input class="animaux" type="submit" value="Animaux autorisés">
+                        </div>
+                </section>
+            </section>
         </nav>
 
     

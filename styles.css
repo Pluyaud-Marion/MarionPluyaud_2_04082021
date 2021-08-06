@@ -8,6 +8,7 @@ header div
 {
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
 
 }
 
@@ -16,9 +17,9 @@ header div
     list-style-type: none;
     display: flex;
     width: 450px;
-    padding-left: 0%;
     justify-content: space-between;
     font-size: small;
+  
 
 }
 
@@ -58,6 +59,82 @@ h1
    
 }
 
+.bouton_rechercher
+{
+    background-color: #0065FC;
+    color:white;
+    border-radius: 0 14% 14% 0;
+    border: none;
+}
+
+.barre_recherche
+{
+    display: flex;
+    width: 10%;
+    height: 30px;
+}
+.zone_texte
+{
+    border:none;
+}
+#map
+{
+    font-size: large;
+    background-color: #F2F2F2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px 0 0 10px;
+    
+}
+.filtres
+{
+   
+    display: flex;
+    width:100%;
+    align-items: center;
+    font-weight: bold;
+}
+.boutons
+{
+
+    display: flex;
+    width: 65%;
+    margin-left: 2%;
+    justify-content: space-around;
+
+
+}
+.economique, .familial, .romantique, .animaux
+{
+    font-weight: bold;
+    border:none;
+    background-color: white;
+}
+.petit_filtre, .petit_filtre_animaux
+{
+    display:flex;
+    border-radius: 20px;
+    width: 20%;
+    height: 30px;
+    border: 1px rgb(221, 217, 217) solid;
+}
+.petit_filtre_animaux
+{
+    width: 27%;
+}
+
+#money, #family, #love, #dog
+{
+    display: flex;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 10px ;
+    color: #0065FC;
+    align-items: center;
+  
+}
 header p,.i, footer div, p
 {
     font-size:x-small;
@@ -251,7 +328,7 @@ header p,.i, footer div, p
 
 h3
 {
-    font-size: x-small;
+    font-size: small;
     font-weight: bold;
 }
 
@@ -280,7 +357,7 @@ footer
 
 .titre_sous_titre_assistance
 {
-    margin-right: 25%;
+    margin-right: 29%;
 }
 footer h2
 {
