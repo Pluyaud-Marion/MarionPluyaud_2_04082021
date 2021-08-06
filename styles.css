@@ -22,8 +22,6 @@ header div
 
 }
 
-
-
 .hebergements a:hover
 {
     border-top: 3px solid #0065FC;
@@ -60,7 +58,7 @@ h1
    
 }
 
-header h2,.i, footer div, p
+header p,.i, footer div, p
 {
     font-size:x-small;
     font-weight: lighter;
@@ -78,14 +76,14 @@ header h2,.i, footer div, p
 
 .rubrique_hebergements h2
 {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 0%;
 
 }
 .populaire_global h2
 {
-    margin-left: 85px;
+    margin-left: 9%;
     margin-top: 20px;
     margin-bottom: 0%;
 
@@ -157,16 +155,17 @@ header h2,.i, footer div, p
 .blocs_hebergement
 {
     display: flex;
+    margin-top: 3%;
     
 }
 .vignette_populaire
 {
     display: flex;
-    width: 70%;
+    width: 80%;
     height: 110px;
     background-color: white;
-    border:white solid 5px;
-    border-radius: 15%;
+    border:white solid 4px;
+    border-radius: 7%;
 
 }
 .legende
@@ -179,29 +178,125 @@ header h2,.i, footer div, p
     width: 40%; 
     height: 100%;
     object-fit: cover;
-    border-radius: 15px 0 0 15px
+    border-radius: 7% 0 0 7%;
 }
+.bloc_complet_activites
+{
+    display: flex;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    justify-content: space-between;
+}
+
+.liste_activites_1
+{
+    display:flex;
+    width: 48%;
+    justify-content: space-between;
+   
+}
+
+.liste_activites_2
+{
+    display:flex;
+    width: 48%;
+    justify-content: space-between;
+    
+}
+.vignette_activites_grande
+{
+
+    width: 48%;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px gray ;
+}
+.vignette_activites_petite
+{
+    width: 100%;
+    height: 48%;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px gray ;
+    
+}
+.deux_petites_vignettes
+{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image_grande
+{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.image_petite
+{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.titre_activites
+{
+    margin-left: 5%;;
+}
+
 h3
 {
-    font-size:small;
+    font-size: x-small;
     font-weight: bold;
+}
+
+.page_sauf_footer
+{
+    margin-left:5%;
+    margin-right: 5%;
 }
 
 footer
 {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #F2F2F2;
 }
 
 .a_propos, .nos_hebergements, .assistance
 {
-   
-    align-content: center;
     line-height: 2em;
-    
+    margin-bottom: 10%;
+}
+.titre_sous_titre_a_propos
+{
+    margin-left: 5%;
+}
+
+.titre_sous_titre_assistance
+{
+    margin-right: 25%;
 }
 footer h2
 {
     font-size: small;
+    margin-top: 20%;
+
+}
+
+h2
+{
+    font-size: medium;
+}
+
+.activites_global h2
+{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
 }
