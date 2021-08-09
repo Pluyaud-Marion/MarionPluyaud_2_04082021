@@ -192,7 +192,7 @@ header p
 
 .rubrique_hebergements h2
 {
-    margin-left: 3.5%;
+    margin-left: 5%;
     margin-top: 20px;
 
 }
@@ -209,7 +209,7 @@ header p
 }
 #afficher_plus
 {
-    margin-left: 3.5%;
+    margin-left: 5%;
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -219,35 +219,87 @@ header p
 {
     display:flex;
     border-radius:20px;
-    width: 100%;
+    width: 90%;
     height: 400px;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2%;  
+    margin-right: 5%;
+    margin-left: 5%;
+
 }
 
+.liste_hebergements a
+{
+    width: 29%;
+    height: 45%;
+    margin-bottom: 3%;
+
+}
 
 .vignette_hebergement
 
 {
-    
-    width: 27%;
-    height: 45%;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     background-color: white;
     border:white solid 3px;
-    margin: auto;
     box-shadow: 1px 1px 5px gray;
-
+}
+.etoiles
+{
+    display: flex;
+    width: 50%;
 }
 
-.vignette_hebergement h3, .vignette_hebergement p
+.etoiles_populaire
+{
+    margin-top: 10%;
+    width: 40%;
+}
+#star_bleu
+{
+
+    color:#0065FC;
+    font-size: xx-small;
+    margin-left: 5%;
+    width: 7%;
+ 
+}
+#star_bleu_populaire
+{
+    color:#0065FC;
+    font-size: xx-small;
+ 
+    width: 11%;
+}
+#star_blanche_populaire
+{
+    color:#DEEBFF;
+    font-size: xx-small;
+ 
+
+}
+#star_blanche
+{
+    color:#DEEBFF;
+    font-size: xx-small;
+    margin-left: 5% ;
+
+}
+.vignette_hebergement h3
 {
     margin-left: 3%;
-    
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
-
-
+.vignette_hebergement p
+{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
 #image_la_cannebiere, #image_port, #image_mouettes, #image_hotel_mer, #image_panier, #image_amina
 {
     width: 100%; 
@@ -262,16 +314,22 @@ header p
     align-items: center;
 
 }
+
+.rubrique_populaire a
+{
+    width: 90%;
+}
 .populaire_global
 {
 
     background-color: #F2F2F2;
     border-radius: 5%;
     margin-left: 20px;
-    width: 50%;
+    width: 55%;
 }
 .rubrique_populaire
 {
+   
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -288,75 +346,93 @@ header p
 }
 .vignette_populaire
 {
+
     display: flex;
-    width: 80%;
+    width: 90%;
     height: 110px;
     background-color: white;
     border:white solid 4px;
     border-radius: 7%;
+    margin-left: 3%;
+
 
 }
-.legende
+.legende_soleil, .legende_bleu_blanc, .legende_eau
 {
+ 
     flex-flow: column wrap;
+    width: 53%;
     margin-left: 5%;
+    
 }
+
 #image_soleil, #image_eau, #image_bleu_blanc
 {
-    width: 40%; 
+    width: 40%;
     height: 100%;
     object-fit: cover;
     border-radius: 7% 0 0 7%;
 }
+
 .bloc_complet_activites
 {
+
     display: flex;
     height: 300px;
     margin-bottom: 3%;
     justify-content: space-between;
 }
 
+
 .liste_activites_1
 {
+
     display:flex;
-    width: 48%;
-    justify-content: space-between;
-   
+    width: 100%;
+    margin-right: 1%;
 }
+
 
 .liste_activites_2
 {
     display:flex;
-    width: 48%;
-    justify-content: space-between;
-    
+    width: 100%;
+    margin-left: 1%;
+
 }
+
 .vignette_activites_grande
 {
 
-    width: 48%;
+    width: 93%;
+    height: 100%;
     border-radius: 20px;
     box-shadow: 0px 2px 5px gray ;
 }
 .vignette_activites_petite
 {
+   
     width: 100%;
-    height: 48%;
+    height: 90%;
     border-radius: 20px;
     box-shadow: 0px 2px 5px gray ;
     
 }
 .deux_petites_vignettes
 {
-    width: 46%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+} 
+.deux_petites
+{
+    height: 52.5%;
 }
 
 .image_grande
 {
-    width: 100%;
+    width: 100% ;
     height: 85%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
