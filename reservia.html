@@ -45,24 +45,32 @@
                 <input class="bouton_rechercher" type="submit" value="Rechercher">
             </p>
             <section class="barre_filtres">
-                <span>Filtres</span>
+                <span id="filtre">Filtres</span>
                 <section class="barre_boutons">
-                    <div class="petit_filtre_economique">
-                        <i id="money" class="fas fa-money-bill-wave"></i>
-                        <input class="economique" type="submit" value="Économique">
-                    </div>               
-                    <div class="petit_filtre_family">
-                        <i id="family" class="fas fa-child"></i>
-                        <input class="familial" type="submit" value="Familial">
-                    </div>
-                    <div class="petit_filtre_romantique">
-                        <i id="love" class="fas fa-heart"></i>
-                        <input class="romantique" type="submit" value="Romantique">
-                    </div>
-                    <div class="petit_filtre_animaux">
-                        <i id="dog" class="fas fa-dog"></i>
-                        <input class="animaux" type="submit" value="Animaux autorisés">
-                    </div>
+                    <a href="vide.html" >
+                        <div class="filtre">
+                            <i id="money" class="fas fa-money-bill-wave"></i>
+                            <span class="texte">Économique</span>
+                        </div>   
+                    </a>    
+                    <a id="famille" href="vide.html" >        
+                        <div class="filtre">
+                            <i id="family" class="fas fa-child"></i>
+                            <span class="texte">Familial</span>
+                        </div>
+                    </a>
+                    <a href="vide.html" > 
+                        <div class="filtre">
+                            <i id="love" class="fas fa-heart"></i>
+                            <span class="texte">Romantique</span>
+                        </div>
+                    </a>
+                    <a id="animaux" href="vide.html" >
+                        <div class="filtre">
+                            <i id="dog" class="fas fa-dog"></i>
+                            <span class="texte">Animaux autorisés</span>
+                        </div>
+                    </a>
                 </section>
             </section>
         </nav>

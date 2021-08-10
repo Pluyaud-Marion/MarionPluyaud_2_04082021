@@ -88,67 +88,80 @@ header div
 }
 
 /*FILTRES*/
+/*délimitation des a pour liens cliquables*/
+.barre_boutons a
+{
+    width: 24%;
+}
+/*délimitation du a pour le filtre animaux (plus grand) pour liens cliquables*/
+#animaux
+{
+    width: 30%;
+}
+#famille
+{
+    width: 18%;
+}
 /*barre générale avec mot filtres + 4 boutons*/
 .barre_filtres
 {
     display: flex;
     width:100%;
-    align-items: center;
     font-weight: bold;
     padding-top: 10px;
+    align-items: center;
 }
-/*Uniquement les boutons ensemble*/
+/*Toute la ligne des boutons*/
 .barre_boutons
 {
     display: flex;
-    width: 65%;
+    width: 60%;
     margin-left: 1%;
     justify-content: space-around;
-}
-/*input submit = modifications pour retirer bords et couleur de fond du submit*/
-.economique, .familial, .romantique, .animaux
+
+} 
+/*texte du filtre*/
+.texte
 {
     font-weight: bold;
-    border:none;
-    background-color: white;
-    font-size: small;
+    border: none;
+    font-size: 70%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#filtre
+{
+    font-size: 80%;
 }
 /*l'ensemble du filtre = icone+bordures+nom*/
-.petit_filtre_romantique, .petit_filtre_economique, .petit_filtre_family, .petit_filtre_animaux
+.filtre
 {
     display:flex;
     border-radius: 20px;
     height: 30px;
     border: 1px rgb(221, 217, 217) solid;
     border-left: white;
+    align-items: center;
+    margin-right: 5%;
+}
 
-}
-/*taille filtre animaux*/
-.petit_filtre_animaux
-{
-    width: 25%;
-}
-/*taille filtres éco et romantiques*/
-.petit_filtre_economique, .petit_filtre_romantique
-{
-    width: 20%;
-}
-/*taille filtre family*/
-.petit_filtre_family
-{
-    width: 15%;
-}
 /*icones*/
 #money, #family, #love, #dog
 {
     display: flex;
     background-color: #DEEBFF;
     border-radius: 50%;
-    padding: 10px ;
+    padding: 8px;
     color: #0065FC;
     align-items: center;
   
 }
+/*EFFETS AU SURVOL DES FILTRES*/
+.filtre:hover
+{
+    background-color: #DEEBFF;
+}
+
 /*mise en place barre i + paragraphe */
 .barre_i
 {
@@ -426,7 +439,10 @@ h2
     width: 100%;
     margin-left: 1%;
 }
-
+.bloc_grande
+{
+    width: 80%;
+}
 /*grande vignette (droite et gauche)*/
 .vignette_activites_grande
 {
@@ -522,38 +538,3 @@ footer h2
     margin-top: 20%;
 }
 
-/*EFFETS AU SURVOL DES FILTRES*/
-.petit_filtre_romantique:hover
-{
-    background-color: #DEEBFF;
-}
-.petit_filtre_economique:hover
-{
-    background-color: #DEEBFF;
-}
-.petit_filtre_family:hover
-{
-    background-color: #DEEBFF;
-}
-
-.petit_filtre_animaux:hover
-{
-    background-color: #DEEBFF;
-}
-
-.economique:hover
-{
-    background-color: #DEEBFF;
-}
-.familial:hover
-{
-    background-color: #DEEBFF;
-}
-.romantique:hover
-{
-    background-color: #DEEBFF;
-}
-.animaux:hover
-{
-    background-color: #DEEBFF;
-}
