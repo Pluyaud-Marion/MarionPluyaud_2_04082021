@@ -9,52 +9,63 @@ a
     text-decoration: none;
     color: black;
 }
+/*marges pour toute la page sauf le footer*/
+.page_sauf_footer
+{
+    margin-left:3%;
+    margin-right: 3%;
+}
+
 /* logo + menu */
-header div
+.logo_menu
 {
     display: flex;
     justify-content: space-between;
-    margin-top: 7%;
-
+    margin-top: 3%;
 }
-
-.menu
-{
-    border: #0065FC solid;
-    list-style-type: none;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    font-size: small;
-}
-
-/*effets au survol "hébergement" + "activite"*/
-.hebergements a:hover
-{
-    border-top: 3px solid #0065FC;
-    color:#0065FC;
-}
-
-.activite a:hover
-{
-    border-top: 3px solid #0065FC;
-    color : #0065FC;
-}
-
-/*coloration + gras "inscription" */
-.inscription a
-{
-    color:#0065FC;
-    font-weight: bold;
-    
-}
-
 .logo
 {
     width: 10%;
 }
 
-/*réglages barre de recherche*/
+.menu_global
+{
+    list-style-type: none;
+    display: flex;
+    width: 32%;
+    font-size: small;
+    align-items: center;
+}
+.fenetres
+{
+    display: flex;
+    width: 40%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+#inscription
+{
+    font-weight: bold;
+    color:#0065FC;
+
+}
+.inscription
+{
+    margin-left: 7%;
+} 
+
+.fenetres:hover
+{
+    border-top: 2px solid #0065FC;
+}
+
+.fenetres a:hover
+{
+    color: #0065FC;
+}
+/* réglages barre de recherche */
 .barre_recherche
 {
     display: flex;
@@ -62,18 +73,23 @@ header div
     height: 30px;
     padding-top: 10px;
 }
-/*réglages bouton rechercher*/
+/* réglages bouton rechercher */
 .bouton_rechercher
 {
     background-color: #0065FC;
     color:white;
-    border-radius: 0 14% 14% 0;
+    border-radius: 0 0.5em 0.5em 0;
     border: none;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: bold;
 }
 /*réglage zone de texte = retrait des bordures*/
 .zone_texte
 {
     border:none;
+    font-weight: bold;
+    margin-left: 10%;
 }
 /*réglage icone map*/
 #map
@@ -92,47 +108,48 @@ header div
 /*délimitation des a pour liens cliquables*/
 .barre_boutons a
 {
-    width: 24%;
+    width: 20%;
 }
 /*délimitation du a pour le filtre animaux (plus grand) pour liens cliquables*/
 #animaux
 {
-    width: 30%;
+    width: 26%;
 }
+/*délimitation du a pour le filtre famille (plus petit) pour liens cliquables*/
 #famille
 {
-    width: 18%;
+    width: 15%;
 }
 /*barre générale avec mot filtres + 4 boutons*/
 .barre_filtres
 {
     display: flex;
-    width:67%;
+    width:85%;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 1%;
     align-items: center;
 }
 /*Toute la ligne des boutons*/
 .barre_boutons
 {
     display: flex;
-    width: 100%;
+    width: 85%;
     margin-left: 3%;
     justify-content: space-between;
+  
 
 } 
 /*texte du filtre*/
 .texte
 {
     font-weight: bold;
-    border: none;
-    font-size: small;
-    margin-left: 3%;
+    font-size: 80%;
+    margin-left: 5%;
  
 }
 #filtre
 {
-    font-size: small;
+    font-size: 80%;
 }
 /*l'ensemble du filtre = icone+bordures+nom*/
 .filtre
@@ -387,7 +404,7 @@ h2
 .populaire_global
 {
     background-color: #F2F2F2;
-    border-radius: 5%;
+    border-radius: 20px;
     width: 32%;
     align-items: center;
     align-content:space-around;
@@ -409,7 +426,7 @@ h2
     height: 85%;
     background-color: white;
     border:white solid 4px;
-    border-radius: 7%;
+    border-radius: 0.9rem;
   
 }
 /*texte (titre + prix) des 3 vignettes*/
@@ -513,12 +530,6 @@ h2
     margin-top: 3%;
     margin-bottom: 1%;
 }
-/*marges pour toute la page sauf le footer*/
-.page_sauf_footer
-{
-    margin-left:5%;
-    margin-right: 5%;
-}
 
 footer
 {
@@ -536,7 +547,7 @@ footer
 /*marges du titre + sous titres pour "a propos"*/
 .titre_sous_titre_a_propos
 {
-    margin-left: 5%;
+    margin-left: 3%;
 }
 /*marges du titre + sous titre pour "assistance" */
 .titre_sous_titre_assistance
