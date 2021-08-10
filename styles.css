@@ -14,15 +14,16 @@ header div
 {
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-top: 7%;
 
 }
 
 .menu
 {
+    border: #0065FC solid;
     list-style-type: none;
     display: flex;
-    width: 450px;
+    width: 100%;
     justify-content: space-between;
     font-size: small;
 }
@@ -31,13 +32,13 @@ header div
 .hebergements a:hover
 {
     border-top: 3px solid #0065FC;
-    color:#0065FC
+    color:#0065FC;
 }
 
 .activite a:hover
 {
     border-top: 3px solid #0065FC;
-    color : #0065FC
+    color : #0065FC;
 }
 
 /*coloration + gras "inscription" */
@@ -106,7 +107,7 @@ header div
 .barre_filtres
 {
     display: flex;
-    width:100%;
+    width:67%;
     font-weight: bold;
     padding-top: 10px;
     align-items: center;
@@ -115,9 +116,9 @@ header div
 .barre_boutons
 {
     display: flex;
-    width: 60%;
-    margin-left: 1%;
-    justify-content: space-around;
+    width: 100%;
+    margin-left: 3%;
+    justify-content: space-between;
 
 } 
 /*texte du filtre*/
@@ -125,24 +126,24 @@ header div
 {
     font-weight: bold;
     border: none;
-    font-size: 70%;
-    margin-left: 4%;
-    margin-right: 4%;
+    font-size: small;
+    margin-left: 3%;
+ 
 }
 #filtre
 {
-    font-size: 80%;
+    font-size: small;
 }
 /*l'ensemble du filtre = icone+bordures+nom*/
 .filtre
 {
     display:flex;
     border-radius: 20px;
-    height: 30px;
+    height: 33px;
     border: 1px rgb(221, 217, 217) solid;
     border-left: white;
     align-items: center;
-    margin-right: 5%;
+    width: 100%;
 }
 
 /*icones*/
@@ -151,10 +152,15 @@ header div
     display: flex;
     background-color: #DEEBFF;
     border-radius: 50%;
-    padding: 8px;
+    padding: 9px;
     color: #0065FC;
     align-items: center;
   
+}
+#family
+{
+    padding-right: 13px;
+    padding-left: 13px;
 }
 /*EFFETS AU SURVOL DES FILTRES*/
 .filtre:hover
@@ -226,13 +232,14 @@ h2
 {
     display: flex;
     margin-top: 1%;
+    justify-content: space-between;
 }
 /*carré gris - hébergement à Marseille*/
 .rubrique_hebergements
 {
     flex-direction: column;
     background-color: #F2F2F2;
-    width: 100%;
+    width: 65%;
     border-radius: 20px;
 }
 
@@ -240,7 +247,7 @@ h2
 .rubrique_hebergements h2
 {
     margin-left: 5%;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 /*bloc 6 vignettes*/
 .liste_hebergements
@@ -275,15 +282,16 @@ h2
 /*marges du titre "les plus populaires"*/
 .populaire_global h2
 {
-    margin-left: 9%;
-    margin-top: 20px;
 
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-bottom: 4%;
 }
 /*icone populaire*/
 #graph
 {
-    padding-left: 40%;
-    margin-top: 10px;
+    margin-right: 10%;
+    margin-bottom: 1%;
 }
 
 #afficher_plus
@@ -363,42 +371,46 @@ h2
 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
 
 }
 /*définition de la zone du "a" pour rubrique populaire pour vignettes cliquables*/
 .rubrique_populaire a
 {
     width: 90%;
-}
+    height: 30%;
+    margin-left: 5%;
+}   
+
 /*bloc grisé pour populaire global (titre+3 vignettes)*/
 .populaire_global
 {
     background-color: #F2F2F2;
     border-radius: 5%;
-    margin-left: 20px;
-    width: 55%;
+    width: 32%;
+    align-items: center;
+    align-content:space-around;
 }
 /*bloc des 3 vignettes*/
 .rubrique_populaire
 {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 450px;
     border-radius: 20px;
-    justify-content: space-around;
-    align-items: center;
+    height: 98%;
+    margin-left: 3%;
 }
 /*chacune des 3 vignettes*/
 .vignette_populaire
 {
     display: flex;
-    width: 90%;
-    height: 110px;
+    width: 95%;
+    height: 85%;
     background-color: white;
     border:white solid 4px;
     border-radius: 7%;
-    margin-left: 3%;
+  
 }
 /*texte (titre + prix) des 3 vignettes*/
 .legende_soleil, .legende_bleu_blanc, .legende_eau
