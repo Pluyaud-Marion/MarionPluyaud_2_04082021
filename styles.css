@@ -91,17 +91,16 @@ a
 {
     border:none;
     font-weight: bold;
-    margin-left: 10%;
 }
 /*réglage icone map*/
 #map
 {
     font-size: large;
-    background-color: #F2F2F2;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color:#F2F2F2;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
     border-radius: 10px 0 0 10px;
     
 }
@@ -545,7 +544,7 @@ footer
     background-color: #F2F2F2;
 
 }
-
+/*3 blocs texte du footer - sauf background*/
 .footer_complet
 {
     max-width: 1200px;

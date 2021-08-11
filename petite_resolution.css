@@ -1,0 +1,187 @@
+.page_sauf_footer
+{
+    padding: 0 0;
+}
+
+.logo_menu
+{
+    margin-top: 3%;
+    border: red solid;
+    height: 100px;
+}
+.logo
+{
+    width: 40%;
+    height: 40px;
+}
+.menu_global
+{
+    width: 100%;
+    border:green solid;
+    list-style-type: none;
+    font-size: small;
+    flex-wrap: wrap-reverse;
+}
+
+h1
+{
+    margin-left: 3%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+.barre_i
+{
+    width: 92%;
+    margin-left: 4%;
+}
+header p
+{
+    margin-left: 3%;
+    font-size: 15px;
+}
+
+.barre_recherche
+{
+    margin-left: 3%;
+}
+.texte_i
+{
+    font-size: 15px;
+    margin-left: 2%;
+}
+
+.barre_filtres
+{
+    display: block;
+    margin-left: 3%;
+}
+
+.barre_boutons
+{
+    display: block;
+    width: 100%;
+
+}
+
+.blocs_hebergement
+{
+    flex-direction: column-reverse;
+}
+.rubrique_hebergements
+{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    padding-top: 5%;
+}
+.rubrique_hebergements h2
+{
+    margin-left: 7%;
+}
+.populaire_global
+{
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+    padding-bottom: 7%;
+}
+.rubrique_populaire
+{
+    margin-left:0;
+}
+.vignette_populaire
+{
+    margin-bottom: 3%;
+    height: 100px;
+}
+.populaire_global h2
+{
+    margin-left: 7%;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+#graph
+{
+    margin-right: 8%;
+}
+#image_soleil, #image_eau, #image_bleu_blanc
+{
+    height: auto;
+}
+.liste_hebergements
+{
+    display: block;
+    width: 86%;
+    height: auto;
+    margin: 0 auto;
+}
+#afficher_plus
+{
+    margin-left:4%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.liste_hebergements a 
+{
+    height: auto;
+}
+.vignette_hebergement
+{
+    height: 200px; 
+    margin-bottom: 5%;
+}
+.activites_global h2
+{
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.activites_global
+{
+    display: block;
+}
+.bloc_grande, .deux_petites_vignettes
+{
+    width: 90%;
+    height: auto;
+}
+.bloc_complet_activites
+{
+    display: block;
+    height: auto;
+    margin-right: 0%;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.liste_activites_1
+{
+    display: block;
+    border: 
+}
+
+.liste_activites_2
+{
+    display: block;
+}
+.deux_petites_vignettes
+{
+    display: block;
+}
+.image_petite
+{
+    height: 200px;
+}
+.image_grande
+{
+    height: 200px;
+}
+.footer_complet
+{
+    display: block;
+}
+footer
+{
+    padding: 1px;
+}
