@@ -2,6 +2,7 @@
 body
 {
     font-family : 'Raleway', sans-serif ;
+    margin: auto;
 }
 /* retrait des effets de base sur les liens */
 a 
@@ -12,8 +13,9 @@ a
 /*marges pour toute la page sauf le footer*/
 .page_sauf_footer
 {
-    margin-left:3%;
-    margin-right: 3%;
+    margin: 0 auto;
+    padding: 0 3%;
+    max-width: 1200px;
 }
 
 /* logo + menu */
@@ -108,17 +110,17 @@ a
 /*délimitation des a pour liens cliquables*/
 .barre_boutons a
 {
-    width: 20%;
+    width: 125px;
 }
 /*délimitation du a pour le filtre animaux (plus grand) pour liens cliquables*/
 #animaux
 {
-    width: 26%;
+    width: 170px;
 }
 /*délimitation du a pour le filtre famille (plus petit) pour liens cliquables*/
 #famille
 {
-    width: 15%;
+    width: 105px;
 }
 /*barre générale avec mot filtres + 4 boutons*/
 .barre_filtres
@@ -133,7 +135,7 @@ a
 .barre_boutons
 {
     display: flex;
-    width: 85%;
+    width: 600px;
     margin-left: 3%;
     justify-content: space-between;
   
@@ -221,8 +223,15 @@ h1
 {
     font-size: small;
 }
-/*sous texte footer + p (prix des vignettes)*/
-footer div, p
+/*sous texte footer */
+footer div
+{
+    font-size:small;
+    font-weight: lighter;
+    text-decoration: none;
+}
+/*p (prix des vignettes)*/
+p
 {
     font-size:x-small;
     font-weight: lighter;
@@ -533,26 +542,29 @@ h2
 
 footer
 {
-    display:flex;
-    justify-content: space-between;
     background-color: #F2F2F2;
+
 }
 
+.footer_complet
+{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding: 0 3%;
+}
 /*sous titre du footer*/
 .a_propos, .nos_hebergements, .assistance
 {
     line-height: 2em;
     margin-bottom: 10%;
 }
-/*marges du titre + sous titres pour "a propos"*/
-.titre_sous_titre_a_propos
-{
-    margin-left: 3%;
-}
+
 /*marges du titre + sous titre pour "assistance" */
 .titre_sous_titre_assistance
 {
-    margin-right: 29%;
+    margin-right: 25%;
 }
 /*titres du footer*/
 footer h2
