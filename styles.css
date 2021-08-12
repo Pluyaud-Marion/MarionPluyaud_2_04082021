@@ -40,8 +40,9 @@ a
 }
 .fenetre1, .fenetre2
 {
+    margin-left: 3%;
     display: flex;
-    width: 40%;
+    width: 30%;
     height: 90%;
     align-items: center;
     justify-content: center;
