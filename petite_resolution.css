@@ -30,6 +30,8 @@
     padding-right: 4.5%;
     padding-left: 5%;
     border-bottom: 2px solid #F2F2F2;
+    margin-left:0%;
+    width: 40%;
 }
 .fenetre2
 {
@@ -40,6 +42,8 @@
     top: 55px;
     right: 0px;
     border-bottom: 2px solid #F2F2F2;
+    margin-left:0%;
+    width: 40%;
 }
 .fenetre1:hover
 {
@@ -63,35 +67,52 @@
 }
 h1
 {
-    margin-left: 3%;
-    margin-right: 5%;
+    margin-left: 4%;
     font-size: 20px;
 }
 .barre_i
 {
     width: 92%;
-    margin-left: 4%;
+    margin-left: 3.5%;
 }
 header p
 {
-    margin-left: 3%;
+    margin-left: 4%;
     font-size: 15px;
 }
-
+.zone_texte
+{
+    padding-bottom: 55%;
+    padding-top:55%;
+}
 .barre_recherche
 {
-    margin-left: 3%;
+    margin-left: 3.5%;
+}
+.bouton_rechercher
+{
+    margin-bottom: -20%;
+}
+#map
+{
+    padding-top: 9px;
+    padding-bottom: 27px;
 }
 .texte_i
 {
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 2%;
 }
 
+#i
+{
+    margin-left: 1%;
+    margin-top: 13px;
+}
 .barre_filtres
 {
     display: block;
-    margin-left: 3%;
+    margin-left: 2%;
     width: 85%;
 }
 
@@ -104,7 +125,7 @@ header p
 {
     width: 33%;
     position: absolute;
-    right: 30px;
+    right: 40px;
     top: 280px;
 }
 
@@ -172,6 +193,15 @@ header p
 {
     margin-left:0%;
     width: 100%;
+}
+.etoiles_populaire
+{
+    margin-top:7%;
+}
+.etoiles
+{
+    width: 40%;
+    padding-left: 1%;
 }
 #graph
 {
