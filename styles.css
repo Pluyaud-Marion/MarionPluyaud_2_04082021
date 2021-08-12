@@ -38,7 +38,7 @@ a
     font-size: small;
     align-items: center;
 }
-.fenetres
+.fenetre1, .fenetre2
 {
     display: flex;
     width: 40%;
@@ -58,12 +58,19 @@ a
     margin-left: 7%;
 } 
 
-.fenetres:hover
+.fenetre1:hover
 {
     border-top: 2px solid #0065FC;
 }
-
-.fenetres a:hover
+.fenetre2:hover
+{
+    border-top: 2px solid #0065FC;
+}
+.fenetre1 a:hover
+{
+    color: #0065FC;
+}
+.fenetre2 a:hover
 {
     color: #0065FC;
 }
@@ -107,7 +114,7 @@ a
 
 /*FILTRES*/
 /*délimitation des a pour liens cliquables*/
-.barre_boutons a
+#economique, #romantique
 {
     width: 125px;
 }

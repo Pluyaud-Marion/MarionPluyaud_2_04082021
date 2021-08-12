@@ -1,0 +1,53 @@
+.vignette_activites_petite
+{
+    height: 97%;
+}
+.logo
+{
+    width: 20%;
+}
+h3
+{
+    font-size: 10px;
+}
+.barre_recherche
+{
+    margin-bottom: 2%;
+}
+.vignette_hebergement
+
+{
+    height: 95%;
+}
+
+.etoiles
+{
+    width: 70%;
+}
+
+#afficher_plus
+{
+    margin-top: 0;
+}
+
+.rubrique_hebergements
+{
+    width: 70%;
+    margin-right: 2%;
+}
+
+.populaire_global
+{
+    width: 35%;
+}
+
+.etoiles_populaire
+{
+    width: 65%;
+    margin-top: 30%;
+}
+
+.vignette_hebergement p
+{
+    margin-bottom: 10%;
+}

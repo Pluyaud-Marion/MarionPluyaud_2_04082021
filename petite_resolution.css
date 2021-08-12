@@ -6,23 +6,61 @@
 .logo_menu
 {
     margin-top: 3%;
-    border: red solid;
-    height: 100px;
+    height: 90px;
 }
 .logo
 {
     width: 40%;
     height: 40px;
+    margin-left: 4%;
 }
 .menu_global
 {
     width: 100%;
-    border:green solid;
     list-style-type: none;
     font-size: small;
     flex-wrap: wrap-reverse;
 }
+.fenetre1
+{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    height: 7%;
+    padding-right: 4.5%;
+    padding-left: 5%;
+    border-bottom: 2px solid #F2F2F2;
+}
+.fenetre2
+{
+    padding-right: 5%;
+    padding-left: 6%;
+    height: 7%;
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    border-bottom: 2px solid #F2F2F2;
+}
+.fenetre1:hover
+{
+    border-bottom: 2px solid #0065FC;
+    color:#0065FC;
+    border-top: none;
+}
+.fenetre2:hover
+{
+    border-bottom: 2px solid #0065FC;
+    color:#0065FC;
+    border-top : none;
+}
 
+.inscription
+{
+    position: absolute;
+    top:30px;
+    right: 20px;
+    margin-left: 0;
+}
 h1
 {
     margin-left: 3%;
@@ -54,15 +92,43 @@ header p
 {
     display: block;
     margin-left: 3%;
+    width: 85%;
 }
 
+#economique .filtre
+{
+    width: 50%;
+    margin-bottom: 4%;
+}
+#famille .filtre
+{
+    width: 33%;
+    position: absolute;
+    right: 30px;
+    top: 280px;
+}
+
+#romantique .filtre
+{
+    width: 47%;
+    margin-bottom: 4%;
+}
+
+#animaux .filtre
+{
+    width: 62%;
+}
+#filtre
+{
+    margin-left: 3%;
+}
 .barre_boutons
 {
     display: block;
     width: 100%;
+    margin-top: 3%;
 
 }
-
 .blocs_hebergement
 {
     flex-direction: column-reverse;
@@ -76,7 +142,7 @@ header p
 }
 .rubrique_hebergements h2
 {
-    margin-left: 7%;
+    margin-left: 4%;
 }
 .populaire_global
 {
@@ -91,14 +157,21 @@ header p
 }
 .vignette_populaire
 {
-    margin-bottom: 3%;
     height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3%;
 }
 .populaire_global h2
 {
-    margin-left: 7%;
+    margin-left: 5%;
     margin-top:5%;
     margin-bottom: 5%;
+}
+.rubrique_populaire a
+{
+    margin-left:0%;
+    width: 100%;
 }
 #graph
 {
@@ -111,9 +184,9 @@ header p
 .liste_hebergements
 {
     display: block;
-    width: 86%;
+    width: 90%;
     height: auto;
-    margin: 0 auto;
+    margin-left: 4%;
 }
 #afficher_plus
 {
@@ -129,59 +202,68 @@ header p
 }
 .vignette_hebergement
 {
-    height: 200px; 
+    height: 175px; 
     margin-bottom: 5%;
+}
+.vignette_hebergement p
+{
+    margin-bottom: 2%;
 }
 .activites_global h2
 {
     margin-top: 6%;
-    margin-left: 5%;
+    margin-left: 4%;
+    margin-bottom: 5%;
 }
 .activites_global
 {
     display: block;
 }
-.bloc_grande, .deux_petites_vignettes
-{
-    width: 90%;
-    height: auto;
-}
+
 .bloc_complet_activites
 {
     display: block;
     height: auto;
     margin-right: 0%;
-    width: 90%;
-    margin-left: 3%;
+    width: 100%;
 }
 
-.liste_activites_1
+.liste_activites_1, .liste_activites_2
 {
     display: block;
-    border: 
+    margin: 0 auto;
 }
-
 .liste_activites_2
 {
-    display: block;
+    padding-bottom: 10%;
 }
 .deux_petites_vignettes
 {
     display: block;
 }
-.image_petite
+
+.vignette_activites_grande, .deux_petites_vignettes
 {
-    height: 200px;
+    width: 92%;
+    margin:0 auto;
 }
-.image_grande
+.image_petite, .image_grande
 {
-    height: 200px;
+    height: 130px;
 }
+
 .footer_complet
 {
     display: block;
+    padding: 0 5%;
+    padding-top: 12%;
+    padding-bottom: 5%;
 }
-footer
+footer h2
 {
-    padding: 1px;
+    margin-top: 0%;
+}
+.titre_activites
+{
+    padding-bottom: 6%;
 }

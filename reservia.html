@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"/>
     <link rel="stylesheet" media="screen and (max-width:480px)" href="petite_resolution.css">
+    <link rel="stylesheet" media="screen and (min-width:480px) and (max-width:800px)" href="moyenne_resolution.css">
     <title>Reservia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +22,12 @@
             <section class="logo_menu">
                 <img class="logo" src="Reservia@3x.png" alt="logo">
                 <section class="menu_global">
-                    <div class="fenetres">
-                        <a href="#Hébergements">Hébergements</a>
+                    <div class="fenetre1">
+                        <a class="menu_hebergement" href="#Hébergements">Hébergements</a>
                     </div>
 
-                    <div class="fenetres">
-                        <a href="#Activités">Activités</a>
+                    <div class="fenetre2">
+                        <a class="menu_activite" href="#Activités">Activités</a>
                     </div>
                 
                 
@@ -49,7 +50,7 @@
             <section class="barre_filtres">
                 <span id="filtre">Filtres</span>
                 <section class="barre_boutons">
-                    <a href="vide.html" >
+                    <a id="economique" href="vide.html" >
                         <div class="filtre">
                             <i id="money" class="fas fa-money-bill-wave"></i>
                             <span class="texte">Économique</span>
@@ -61,7 +62,7 @@
                             <span class="texte">Familial</span>
                         </div>
                     </a>
-                    <a href="vide.html" > 
+                    <a id="romantique" href="vide.html" > 
                         <div class="filtre">
                             <i id="love" class="fas fa-heart"></i>
                             <span class="texte">Romantique</span>
