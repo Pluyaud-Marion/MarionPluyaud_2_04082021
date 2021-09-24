@@ -11,7 +11,7 @@ a
     color: black;
 }
 /*marges pour toute la page sauf le footer*/
-.page_sauf_footer
+.main
 {
     margin: 0 auto;
     padding: 0 3%;
@@ -195,21 +195,21 @@ a
 }
 
 /*mise en place barre i + paragraphe */
-.barre_i
+.barre_infos
 {
     display: flex;
     width: 100%;
     padding-top: 15px;
 }
 /*marges sur id du i au milieu de l'icone */
-#i
+#infos
 {
     margin-top: 10px;
     margin-right: 0.5%;
    
 }
 /* création de l'icone i global = modif des bordures de l'input submit i*/
-#bouton_i
+#bouton_infos
 {
     background-color: white;
     border-radius: 50%;
