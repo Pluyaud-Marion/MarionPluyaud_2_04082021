@@ -69,7 +69,6 @@
 h1
 {
     margin-left: 4%;
-    font-size: 20px;
     margin-right: 15%;
 }
 .barre_infos
@@ -132,7 +131,7 @@ header p
     width: 33%;
     position: absolute;
     right: 40px;
-    top: 284px;
+    top: 267.5px;
 }
 
 #romantique .filtre
